@@ -1,0 +1,44 @@
+
+
+html, body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 10%;
+}
+
+body {
+    background: #eee;
+    font-family: "didot";
+
+}
+
+
+div.img, div.text  {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+div.img {
+    height: 100%;
+    width: 35%;
+    overflow: hidden;
+    background: white;
+    text-align: center;
+}
+
+
+img.profile {
+    z-index: -1;
+    position: relative;
+    height: 100%;
+    margin-left: -10%;
+    text-align: right;
+}
+
+div.text {
+    left: 45%;
+    margin: 0 10%;
+}
