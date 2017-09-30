@@ -1,37 +1,23 @@
 
 
-html, body {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    left: 10%;
-}
-
-body {
-    background: #eee;
-    font-family: "didot";
-
-}
-
-
-div.img, div.text  {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
+/*/ div, span { border: solid thin; } /**/
 
 div.img {
+    position: fixed;
+    transform: translateY(-50%);
+    top: 50%;
+
     height: 100%;
     width: 35%;
-    overflow: hidden;
+
+
+    padding-left: 4em;
+    margin: 0;
     background: white;
     text-align: center;
 }
 
-
 img.profile {
-    z-index: -1;
     position: relative;
     height: 100%;
     margin-left: -10%;
@@ -39,6 +25,20 @@ img.profile {
 }
 
 div.text {
-    left: 45%;
-    margin: 0 10%;
+    position: absolute;
+    left: calc(35% + 4em);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 6px 0.1px #aaa;
+    background: rgba(250, 250, 250, 0.6);
 }
+
+div.span {
+    max-height: 100%;
+    overflow-y: scroll;
+    padding: 0 12%;
+    background: transparent;
+}
+
+
