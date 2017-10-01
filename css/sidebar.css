@@ -79,13 +79,13 @@ div.side:hover > div.category {
 }
 
 div.side:hover > ul:hover {
-    background: rgba(150, 150, 150, 0.3);
-    color: darkblue;
+    background: rgba(0, 0, 0, 0.1);
+    color: #000088;
 }
 
 div.side:hover > div.category:hover {
-    background: rgba(150, 150, 150, 0.3);
-    color: darkblue;
+    background: rgba(0, 0, 0, 0.1);
+    color: #000088;
 }
 
 ul:active, div.category:active {
