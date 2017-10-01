@@ -1,7 +1,5 @@
 
 
-/*/ div, span { border: solid thin; } /**/
-
 div.img {
     position: fixed;
     transform: translateY(-50%);
@@ -20,8 +18,9 @@ div.img {
 img.profile {
     position: relative;
     height: 100%;
-    margin-left: -10%;
     text-align: right;
+    object-fit: contain;
+
 }
 
 div.text {
