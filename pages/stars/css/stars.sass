@@ -1,29 +1,29 @@
 // n is number of stars required
 @function multiple-box-shadow ($n) 
-    $value: '#{random(1000000)/10000}vw #{2*random(1000000)/10000}vh #FFF'
+    $value: '#{2*random(1000000)/10000}vw #{2*random(1000000)/10000}vh #FFF'
     @for $i from 2 through $n
-        $value : '#{$value} , #{random(1000000)/10000}vw #{random(1000000)/10000}vh #FFF'
+        $value : '#{$value} , #{2*random(1000000)/10000}vw #{2*random(1000000)/10000}vh #FFF'
     @return unquote($value)
 
-$shadows-small-top: multiple-box-shadow(200)
-$shadows-small-bot: multiple-box-shadow(200)
-$shadows-med-top:   multiple-box-shadow(100)
-$shadows-med-bot:   multiple-box-shadow(100)
-$shadows-big-bot:   multiple-box-shadow(50)
-$shadows-big-top:   multiple-box-shadow(50)
-$shadows-small-top-fast: multiple-box-shadow(200)
-$shadows-small-bot-fast: multiple-box-shadow(200)
-$shadows-med-top-fast:   multiple-box-shadow(100)
-$shadows-med-bot-fast:   multiple-box-shadow(100)
-$shadows-big-bot-fast:   multiple-box-shadow(50)
-$shadows-big-top-fast:   multiple-box-shadow(50)
+$shadows-small-top: multiple-box-shadow(1600)
+$shadows-small-bot: multiple-box-shadow(1600)
+$shadows-med-top:   multiple-box-shadow(800)
+$shadows-med-bot:   multiple-box-shadow(800)
+$shadows-big-bot:   multiple-box-shadow(400)
+$shadows-big-top:   multiple-box-shadow(400)
+$shadows-small-top-fast: multiple-box-shadow(1600)
+$shadows-small-bot-fast: multiple-box-shadow(1600)
+$shadows-med-top-fast:   multiple-box-shadow(800)
+$shadows-med-bot-fast:   multiple-box-shadow(800)
+$shadows-big-bot-fast:   multiple-box-shadow(400)
+$shadows-big-top-fast:   multiple-box-shadow(400)
 
 
 @keyframes anim-star-top
     from  
-        transform: translateY(100vh)
+        transform: translateY(200vh)
     to        
-        transform: translateY(-100vh)
+        transform: translateY(-200vh)
 
 html
     width: 100%
