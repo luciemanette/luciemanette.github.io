@@ -75,7 +75,7 @@ a { color: white; }
 
 div.name {
     position: relative;
-    margin: -7vh 25vw -5.5vh 25vw;
+    margin: -6.5vh 25vw -6.5vh 25vw;
     padding: 4vh;
     transform: translateY(0);
     border: solid 0.5vh white;
