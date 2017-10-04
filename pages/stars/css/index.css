@@ -56,6 +56,7 @@ div.header > div.headtext {
     transform: translateY(-50%);
     font-family: "Press Start 2P";
     background: transparent;
+
 }
 
 div.headtext > h1 {
@@ -81,12 +82,7 @@ div.name {
     border: solid 0.5vh white;
     color: white;
     text-align: center;
-
-    background: -webkit-linear-gradient(left, #090A0F, #1B2735, #090A0F); /* For Safari 5.1 to 6.0 */
-    background:    -moz-linear-gradient(left, #090A0F, #1B2735, #090A0F); /* For Firefox 3.6 to 15 */
-    background:      -o-linear-gradient(left, #090A0F, #1B2735, #090A0F); /* For Opera 11.1 to 12.0 */
-    background:         linear-gradient(left, #090A0F, #1B2735, #090A0F); /* Standard syntax */
-
+    background:         linear-gradient(left, #090A0F, #1B2735, #090A0F);
 }
 
 
